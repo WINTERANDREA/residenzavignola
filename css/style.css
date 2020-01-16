@@ -1,0 +1,142 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: "Parisienne", cursive;
+  line-height: 1.4; }
+
+a {
+  text-decoration: none; }
+
+p {
+  margin: 0.75rem 0; }
+
+/* Utility Classes */
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 0 2rem;
+  overflow: hidden; }
+
+.text-center {
+  text-align: center; }
+
+.text-primary {
+  color: #51c076; }
+
+.bg-light {
+  background: #f4f4f4;
+  color: #333; }
+
+.bg-dark {
+  background: #333;
+  color: #fff; }
+
+.bg-primary {
+  background: #93cb52;
+  color: #fff; }
+
+.l-heading {
+  font-size: 4rem;
+  margin-bottom: 0.75rem;
+  line-height: 1.1; }
+
+.m-heading {
+  font-size: 2rem;
+  margin-bottom: 0.75rem;
+  line-height: 1.1; }
+
+.lead {
+  font-size: 1.3rem;
+  margin-bottom: 2rem; }
+
+.py-1 {
+  padding: 1.5rem 0; }
+
+.py-2 {
+  padding: 2rem 0; }
+
+.py-3 {
+  padding: 3rem 0; }
+
+.p-1 {
+  padding: 1.5rem; }
+
+.p-2 {
+  padding: 2rem; }
+
+.p-3 {
+  padding: 3rem; }
+
+.btn {
+  display: inline-block;
+  color: #fff;
+  background: #51c076;
+  padding: 0.5rem 2rem;
+  border: none;
+  border-radius: 0.4rem; }
+
+.btn:hover {
+  background: rgba(81, 192, 118, 0.822); }
+
+.btn-dark {
+  background-color: #333;
+  color: #fff; }
+
+.list {
+  margin: 0.5rem 0;
+  list-style: none; }
+
+.list li {
+  padding: 0.5rem 0;
+  border-bottom: #444 dotted 1px; }
+
+/* Navbar */
+#navbar {
+  position: sticky;
+  top: 0;
+  background: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1;
+  padding: 1rem; }
+
+#navbar ul {
+  list-style: none;
+  display: flex; }
+
+#navbar ul li a {
+  color: #fff;
+  padding: 0.75rem;
+  margin: 0 0.25rem; }
+
+#navbar ul li a:hover {
+  background: #51c076;
+  border-radius: 0.5rem; }
+
+/* Showcase */
+#showcase {
+  background: #333 url("../img/01(1).jpg") no-repeat center center/cover;
+  height: 100vh;
+  color: #fff; }
+
+#showcase .showcase-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  align-items: center;
+  text-align: center;
+  padding: 0 3rem;
+  /* Overlay (opacity only to the background) */
+  position: absolute;
+  top: 65px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  /* rgba alphabet (fourth value is the trasparency and range from 0 to 1 */
+  background-color: rgba(0, 0, 0, 0.2); }
